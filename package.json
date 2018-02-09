@@ -1,0 +1,54 @@
+{
+  "name": "eslint-config-baumeister",
+  "version": "0.0.0",
+  "description": "Shareable ESLint Config for Baumeister",
+  "license": "MIT",
+  "repository": "micromata/cli-error-notifier",
+  "author": {
+    "name": "Michael Kühnel",
+    "email": "m.kuehnel@micromata.de",
+    "url": "micromata.de"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "npm run eslint --silent -- --fix",
+    "release": "nsp check && standard-version --tag-prefix",
+    "release:patch": "npm run release --silent -- --release-as patch",
+    "release:minor": "npm run release --silent -- --release-as minor",
+    "release:major": "npm run release --silent -- --release-as major",
+    "preinstall": "npx install-peerdeps eslint-config-baumeister --dev --only-peers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "Baumeister",
+    "Micromata"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-xo": "^0.19.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-xo": "^0.19.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^3.0.1",
+    "nsp": "^3.1.0",
+    "standard-version": "^4.3.0"
+  }
+}
