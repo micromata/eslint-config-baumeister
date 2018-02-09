@@ -22,6 +22,7 @@ module.exports = {
 		'arrow-parens': 'off',
 		'no-console': 'warn',
 		'no-debugger': 'warn',
-		'filenames/match-exported': ['error', 'kebab']
+		'filenames/match-exported': ['error', 'kebab'],
+		'unicorn/explicit-length-check': 'off'
 	}
 };
