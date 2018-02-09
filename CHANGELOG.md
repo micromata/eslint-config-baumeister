@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/micromata/eslint-config-baumeister/compare/0.0.3...0.1.0) (2018-02-09)
+
+
+### Features
+
+* turn of unicorn/explicit-length-check ([743dfe4](https://github.com/micromata/eslint-config-baumeister/commit/743dfe4))
+
+
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/micromata/eslint-config-baumeister/compare/0.0.2...0.0.3) (2018-02-09)
 
