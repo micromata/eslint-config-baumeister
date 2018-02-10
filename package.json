@@ -24,7 +24,7 @@
     "release:minor": "npm run release --silent -- --release-as minor",
     "release:major": "npm run release --silent -- --release-as major",
     "preinstall": "npx install-peerdeps eslint-config-baumeister --dev --only-peers",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run eslint --silent"
   },
   "keywords": [
     "eslint",
