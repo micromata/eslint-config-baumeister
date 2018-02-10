@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-baumeister",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Shareable ESLint Config for Baumeister",
   "license": "MIT",
   "repository": "micromata/eslint-config-baumeister",

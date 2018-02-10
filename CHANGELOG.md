@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/micromata/eslint-config-baumeister/compare/0.1.2...0.1.3) (2018-02-10)
+
+
+### Bug Fixes
+
+* remove automatic installation of peer dependencies ([0105b24](https://github.com/micromata/eslint-config-baumeister/commit/0105b24))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/micromata/eslint-config-baumeister/compare/0.1.1...0.1.2) (2018-02-10)
 
