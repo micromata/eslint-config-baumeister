@@ -13,6 +13,9 @@
 $ npm install --save-dev eslint-config-baumeister
 ```
 
+***Note:***
+*Installation needs npm `>= 5.2.0` to install the needed peer dependencies automatically during the `preinstall` npm lifecycle script via `npx install-peerdeps […]`.*
+
 ## Usage
 
 Add some ESLint config to your `package.json`:
