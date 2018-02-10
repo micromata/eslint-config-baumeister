@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/micromata/eslint-config-baumeister/compare/0.1.0...0.1.1) (2018-02-10)
+
+
+### Bug Fixes
+
+* **travis:** Use latest npm on older node versions ([951d2fd](https://github.com/micromata/eslint-config-baumeister/commit/951d2fd))
+* use postintall script to add peer dependencies to package.json ([ae6713d](https://github.com/micromata/eslint-config-baumeister/commit/ae6713d))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/micromata/eslint-config-baumeister/compare/0.0.3...0.1.0) (2018-02-09)
 

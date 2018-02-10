@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-baumeister",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shareable ESLint Config for Baumeister",
   "license": "MIT",
   "repository": "micromata/eslint-config-baumeister",
@@ -15,7 +15,7 @@
   ],
   "engines": {
     "node": ">=4",
-    "npm" : ">=5.2.0"
+    "npm": ">=5.2.0"
   },
   "scripts": {
     "eslint": "eslint .",
