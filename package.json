@@ -24,7 +24,7 @@
     "release:patch": "npm run release --silent -- --release-as patch",
     "release:minor": "npm run release --silent -- --release-as minor",
     "release:major": "npm run release --silent -- --release-as major",
-    "postinstall": "npx install-peerdeps eslint-config-baumeister --dev --only-peers",
+    "preinstall": "npx install-peerdeps eslint-config-baumeister --dev --only-peers",
     "test": "npm run eslint --silent"
   },
   "keywords": [
