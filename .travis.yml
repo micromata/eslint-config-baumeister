@@ -7,3 +7,4 @@ node_js:
 install:
   - npm install -g npm
   - npm install
+  - npx install-peerdeps eslint-config-baumeister --dev --only-peers

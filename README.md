@@ -11,10 +11,11 @@
 
 ```
 $ npm install --save-dev eslint-config-baumeister
+$ npx install-peerdeps eslint-config-baumeister --dev --only-peers
 ```
 
 ***Note:***
-*Installation needs npm `>= 5.2.0` to install the needed peer dependencies automatically during the `preinstall` npm lifecycle script via `npx install-peerdeps […]`.*
+*Installation needs npm `>= 5.2.0` to install the needed peer dependencies via `npx install-peerdeps […]`.*
 
 ## Usage
 
