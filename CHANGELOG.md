@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/micromata/eslint-config-baumeister/compare/1.0.0...1.0.1) (2018-02-11)
+
+
+### Bug Fixes
+
+* make it installable with npm versions < 5.2.0 ([2a221fd](https://github.com/micromata/eslint-config-baumeister/commit/2a221fd))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/micromata/eslint-config-baumeister/compare/0.1.3...1.0.0) (2018-02-10)
 
