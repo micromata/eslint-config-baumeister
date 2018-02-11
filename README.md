@@ -16,8 +16,11 @@ $ npm install eslint-config-baumeister --save-dev
 $ npx install-peerdeps eslint-config-baumeister --dev --only-peers
 ```
 
-***Note:***
-*Installation needs npm `>= 5.2.0` to install the needed peer dependencies via `npx install-peerdeps […]`.*
+**Note:**
+Installation needs npm `>= 5.2.0` to install the needed peer dependencies via `npx install-peerdeps […]`. If your are using an older npm version you need to install the peer dependencies with:
+```
+$ npm install eslint eslint-config-xo eslint-plugin-filenames eslint-plugin-import eslint-plugin-security eslint-plugin-unicorn --save-dev
+``` 
 
 ## Usage
 

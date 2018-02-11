@@ -14,8 +14,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=4",
-    "npm": ">=5.2.0"
+    "node": ">=4"
   },
   "scripts": {
     "eslint": "eslint .",
