@@ -7,10 +7,12 @@
 
 > This package provides [Baumeisters](https://github.com/micromata/Baumeister) ESLint settings as an extensible shared config.
 
+The settings are based on [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo), [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn), [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security), [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import), [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames) with a few adaptions.
+
 ## Install
 
 ```
-$ npm install --save-dev eslint-config-baumeister
+$ npm install eslint-config-baumeister --save-dev
 $ npx install-peerdeps eslint-config-baumeister --dev --only-peers
 ```
 
