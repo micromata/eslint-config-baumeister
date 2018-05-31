@@ -4,7 +4,6 @@ node_js:
   - 6
   - 8
   - node
-install:
-  - npm install -g npm
-  - npm install
-  - npx install-peerdeps eslint-config-baumeister --dev --only-peers
+before_script:
+  - npm i install-peerdeps
+  - install-peerdeps eslint-config-baumeister --only=dev --only-peers
