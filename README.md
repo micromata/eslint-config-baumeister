@@ -13,7 +13,7 @@ The settings are based on [eslint-config-xo](https://github.com/sindresorhus/esl
 
 ```
 $ npm install eslint-config-baumeister --save-dev
-$ npx install-peerdeps eslint-config-baumeister --dev --only-peers
+$ npx install-peerdeps eslint-config-baumeister --only=dev --only-peers
 ```
 
 **Note:**
