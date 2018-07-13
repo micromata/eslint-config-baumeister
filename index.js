@@ -22,6 +22,7 @@ module.exports = {
 		'arrow-parens': 'off',
 		'no-console': 'warn',
 		'no-debugger': 'warn',
+		'linebreak-style': 'warn',
 		'filenames/match-exported': ['error', 'kebab'],
 		'unicorn/explicit-length-check': 'off'
 	}
