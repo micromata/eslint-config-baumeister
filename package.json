@@ -19,7 +19,7 @@
   "scripts": {
     "eslint": "eslint .",
     "eslint:fix": "npm run eslint --silent -- --fix",
-    "release": "nsp check && standard-version --tag-prefix",
+    "release": "standard-version --tag-prefix",
     "release:patch": "npm run release --silent -- --release-as patch",
     "release:minor": "npm run release --silent -- --release-as minor",
     "release:major": "npm run release --silent -- --release-as major",
@@ -42,7 +42,6 @@
   },
   "devDependencies": {
     "eslint": "^5.1.0",
-    "nsp": "^3.2.1",
     "standard-version": "^4.4.0"
   }
 }
