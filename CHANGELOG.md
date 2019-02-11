@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/micromata/eslint-config-baumeister/compare/1.1.0...1.2.0) (2019-02-11)
+
+
+### Bug Fixes
+
+* **release:** Remove nsp since its dead and gone ([65f57c5](https://github.com/micromata/eslint-config-baumeister/commit/65f57c5))
+
+
+### Features
+
+* Update to latest ESLint (5.13.x) and configure prefer-destructuring as warning ([fb0f32a](https://github.com/micromata/eslint-config-baumeister/commit/fb0f32a))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/micromata/eslint-config-baumeister/compare/1.0.4...1.1.0) (2018-07-13)
 
