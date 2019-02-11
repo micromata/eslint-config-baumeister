@@ -41,7 +41,7 @@
     "eslint-plugin-unicorn": ">=4.0.3"
   },
   "devDependencies": {
-    "eslint": "^5.1.0",
+    "eslint": "^5.13.0",
     "standard-version": "^4.4.0"
   }
 }
