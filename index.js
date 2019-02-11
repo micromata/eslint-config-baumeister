@@ -23,6 +23,7 @@ module.exports = {
 		'no-console': 'warn',
 		'no-debugger': 'warn',
 		'linebreak-style': 'warn',
+		'prefer-destructuring': 'warn',
 		'filenames/match-exported': ['error', 'kebab'],
 		'unicorn/explicit-length-check': 'off'
 	}
